@@ -1,0 +1,36 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment-specific config files
+.env
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore dependency directories
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore npm debug log
+npm-debug.log
+
+# Ignore yarn integrity file
+.yarn-integrity
+
+# Ignore dist or build directories
+dist/
+build/
+
+# Ignore coverage report directory
+coverage/
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore .env.local files if used for local development overrides
+.env.local
